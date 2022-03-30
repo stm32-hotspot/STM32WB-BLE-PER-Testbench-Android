@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">ST PER Testbench</string>
+    <string name="app_version">App Version:</string>
+    <string name="scan">Scan</string>
+    <string name="graph">Graph</string>
+    <string name="bluetooth_icon">Bluetooth Icon</string>
+    <string name="tx_rx_filter">TX/RX Filter</string>
+    <string name="configure">Configure</string>
+    <string name="tx_power">TX Power</string>
+    <string name="tx_frequency">TX Frequency</string>
+    <string name="length_of_test_data">Length of Test Data</string>
+    <string name="packet_payload">Packet Payload</string>
+    <string name="phy">PHY</string>
+    <string name="rx_power">RX Power</string>
+    <string name="modulation_index">Modulation Index</string>
+    <string name="rx_frequency">RX Frequency</string>
+    <string name="adv_channels_only">ADV Channels Only</string>
+    <string name="connect">Connect</string>
+    <string name="rssi">RSSI (dBm)</string>
+    <string name="per">PER (%)</string>
+    <string name="clear_graphs">Clear Graphs</string>
+    <string name="save_data">Save Data</string>
+    <string name="enter_distance">Enter Distance (Meters)</string>
+    <string name="tx">TX</string>
+    <string name="rx">RX</string>
+    <string name="enter_length">Enter Length (0 – 255)</string>
+    <string name="number_of_packets">Number of Packets</string>
+    <string name="enter_number">Enter Number (1 – 10,000)</string>
+    <string name="dtm_filter">DTM Filter</string>
+    <string name="_0_dbm">0 dBm</string>
+    <string name="_0">0</string>
+    <string name="_0_packets">0 packets</string>
+    <string name="_0_packets_received">0 packets received</string>
+    <string name="packets_received">Packets Received</string>
+    <string name="packets">Packets</string>
+
+    <string-array name="power_array">
+        <item>31 (+6dBm)</item>
+        <item>30 (+5dBm)</item>
+        <item>29 (+4dBm)</item>
+        <item>28 (+3dBm)</item>
+        <item>27 (+2dBm)</item>
+        <item>26 (+1dBm)</item>
+        <item>25 (0dBm)</item>
+        <item>24 (-0.15dBm)</item>
+        <item>23 (-0.505dBm)</item>
+        <item>22 (-0.85dBm)</item>
+        <item>21 (-1.30dBm)</item>
+        <item>20 (-1.80dBm)</item>
+        <item>19 (-2.45dBm)</item>
+        <item>18 (-3.15dBm)</item>
+        <item>17 (-4.00dBm)</item>
+        <item>16 (-4.95dBm)</item>
+        <item>15 (-5.90dBm)</item>
+        <item>14 (-6.90dBm)</item>
+        <item>13 (-7.80dBm)</item>
+        <item>12 (-8.85dBm)</item>
+        <item>11 (-9.90dBm)</item>
+        <item>10 (-10.90dBm)</item>
+        <item>9 (-12.05dBm)</item>
+        <item>8 (-13.15dBm)</item>
+        <item>7 (-14.10dBm)</item>
+        <item>6 (-15.25dBm)</item>
+        <item>5 (-16.50dBm)</item>
+        <item>4 (-17.60dBm)</item>
+        <item>3 (-18.85dBm)</item>
+        <item>2 (-19.75dBm)</item>
+        <item>1 (-20.85dBm)</item>
+        <item>0 (-40dBm)</item>
+    </string-array>
+    <string-array name="packet_payload_array">
+        <item>0x00 - Pseudo-Random bit sequence 9</item>
+        <item>0x01 - Pattern of alternating bits "11110000"</item>
+        <item>0x02 - Pattern of alternating bits "10101010"</item>
+        <item>0x03 - Pseudo-Random bit sequence 15</item>
+        <item>0x06 - Pattern of alternating bits "00001111"</item>
+        <item>0x07 - Pattern of alternating bits "01010101"</item>
+    </string-array>
+    <string-array name="tx_phy_array">
+        <item>0x01 - Transmitter set to use the LE 1M PHY</item>
+        <item>0x02 - Transmitter set to use the LE 2M PHY</item>
+    </string-array>
+    <string-array name="rx_phy_array">
+        <item>0x01 - Receiver set tp use the LE 1M PHY</item>
+        <item>0x02 - Receiver set tp use the LE 2M PHY</item>
+    </string-array>
+    <string-array name="modulation_index_array">
+        <item>0x00 - Assume transmitter will have a standard modulation index</item>
+        <item>0x01 - Assume transmitter will have a stable modulation index</item>
+    </string-array>
+</resources>
