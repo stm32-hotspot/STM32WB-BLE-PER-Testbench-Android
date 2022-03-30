@@ -56,4 +56,4 @@ Please note, the mobile device must be running Android 8 or newer to run the app
 Go to [Utilities/Android Software](https://github.com/stm32-hotspot/STM32WB-BLE-PER-Testbench/tree/main/Utilities/Android_Software) to download the APK.
 
 ## User Guide
-Go to the [README](https://github.com/stm32-hotspot/STM32WB-BLE-PER-Testbench#users-guide) to learn how to use the application.
+See the [README](https://github.com/stm32-hotspot/STM32WB-BLE-PER-Testbench#users-guide) of the STM32WB-BLE-PER-Testbench github repo to learn how to use the application.
